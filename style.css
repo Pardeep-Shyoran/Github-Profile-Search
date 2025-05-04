@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Syne:wght@400..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: antiquewhite;
+    font-family: "Syne", sans-serif;
+}
+
+.form{
+    /* height: 100%; */
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px 0;
+}
+
+.form h1{
+    font-size: 5rem;
+    font-weight: 600;
+}
+
+.search-form{
+    width: 50%;
+    height: 20%;
+    /* border: 1px solid antiquewhite; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+}
+
+.form .search-form .usernameinp{
+    color: rgb(0, 0, 0);
+    background-color: antiquewhite;
+    outline: none;
+    border-radius: 24px;
+    padding: 12px 24px;
+    width: 50%;
+    font-size: 1.2rem;
+}
+
+.form .search-form button{
+    font-size: 1.2rem;
+    color: rgb(0, 0, 0);
+    background-color: antiquewhite;
+    font-weight: 500;
+    border: 1px solid white;
+    border-radius: 24px;
+    padding: 12px;
+    width: 110px;
+    cursor: pointer;
+
+}
+
+.profile-card{
+    /* border: 1px solid antiquewhite; */
+    padding: 12px;
+}
+
+.profile-card .profile-heading{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    gap: 24px;
+
+}
+
+.profile-card .profile-heading .profile-pic{
+    /* border: 1px solid antiquewhite; */
+    padding: 12px;
+    width: 35%;
+}
+
+.profile-card .profile-heading .profile-pic img{
+    width: 100%;
+    border: 4px solid antiquewhite;
+    padding: 2px;
+    border-radius: 50%;
+}
+
+.profile-card .profile-heading .profile-about{
+    /* border: 1px solid antiquewhite; */
+    padding: 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.profile-card .profile-heading .profile-about .login h2{
+    font-size: 2rem;
+}
+
+.profile-card .profile-heading .profile-about .login p{
+    opacity: 0.7;
+}
+
+.profile-card .profile-heading .profile-about .profile-link{
+    color: rgb(0, 0, 0);
+    background-color: antiquewhite;
+    text-decoration: none;
+    font-weight: 500;
+    border: 1px solid white;
+    border-radius: 24px;
+    padding: 12px;
+    width: 116px;
+}
+
+.profile-card .profile-stats{
+    padding: 12px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.profile-card .profile-stats .profile-records{
+    /* border: 1px solid antiquewhite; */
+    width: 24%;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: rgb(30, 30, 31);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-card .repos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    padding: 50px;
+}
+
+.profile-card .profile-repos .repo {
+    width: 56vw;
+    background-color: rgb(22, 22, 22);
+    display: flex;
+    justify-content: space-between; /* spacing between items */
+    align-items: center;
+    border-radius: 12px;
+    padding: 12px 25px;
+}
+
+.profile-card .profile-repos .repo-name {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #fef6e4;
+    flex: 1; /* takes available space */
+}
+
+.profile-card .profile-repos .repo p:nth-of-type(2) {
+    font-size: 1rem;
+    color: #ccc;
+    margin: 0 20px;
+    min-width: 100px;
+    text-align: center;
+}
+
+.profile-card .profile-repos .repo .repo-link {
+    color: rgb(0, 0, 0);
+    background-color: antiquewhite;
+    text-decoration: none;
+    font-weight: 500;
+    border: none;
+    border-radius: 24px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    text-align: center;
+}

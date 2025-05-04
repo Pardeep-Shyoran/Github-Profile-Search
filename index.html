@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+</head>
+
+<body>
+
+
+    <div class="form">
+
+        <!-- Heading -->
+        <h1>Github Profile Search</h1>
+
+        <!-- Form to search -->
+        <form class="search-form" id="search-form">
+            <input type="text" placeholder="Github Username" class="usernameinp"/>
+            <button class="search">Search</button>
+        </form>
+
+        <!-- Dummy profile -->
+        <div class="profile-card">
+            <div class="profile-heading">
+                <div class="profile-pic">
+                    <img src="https://miro.medium.com/v2/resize:fit:564/1*Erk4NawQOHkf4wSN7JmB_A.jpeg"
+                        alt="Profile Image">
+                </div>
+                <div class="profile-about">
+                    <div class="login">
+                        <h2>Profile Name</h2>
+                        <p>@Username</p>
+                        <p>Using since </p>
+                    </div>
+                    <a class="profile-link" target="_blank" href="#">View Profile</a>
+                    <p>Location</p>
+                    <p>Blog : link</p>
+                    <p>Company : Name</p>
+                    <p>Bio</p>
+                </div>
+            </div>
+
+            <div class="profile-stats">
+                <div class="profile-followers profile-records">
+                    <p>Followers</p>
+                    <p>5500</p>
+                </div>
+                <div class="profile-following profile-records">
+                    <p>Following</p>
+                    <p>12</p>
+                </div>
+                <div class="profile-public-repos profile-records">
+                    <p>Public Repository</p>
+                    <p>99</p>
+                </div>
+            </div>
+
+            <div class="repos">
+                <div class="profile-repos">
+                    <div class="repo">
+                        <p class="repo-name">RepositoryName</p>
+                        <p>Created on :</p>
+                        <a class="repo-link" target="_blank" href="">View</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
