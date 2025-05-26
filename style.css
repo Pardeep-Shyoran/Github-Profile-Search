@@ -177,3 +177,100 @@ body,html{
     font-size: 1rem;
     text-align: center;
 }
+
+
+/* Responsive Web App */
+
+/* Responsive for tablets and smaller screens */
+@media (max-width: 1024px) {
+    .form h1 {
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    .search-form {
+        width: 80%;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .form .search-form .usernameinp {
+        width: 100%;
+    }
+
+    .form .search-form button {
+        width: 100%;
+    }
+
+    .profile-card .profile-heading {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profile-card .profile-heading .profile-pic {
+        width: 50%;
+    }
+
+    .profile-card .profile-heading .profile-about {
+        padding: 12px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .profile-card .profile-heading .profile-about .profile-link {
+        width: auto;
+    }
+
+    .profile-card .profile-stats {
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .profile-card .profile-stats .profile-records {
+        width: 80%;
+    }
+
+    .profile-card .repos {
+        padding: 24px;
+    }
+
+    .profile-card .profile-repos .repo {
+        flex-direction: column;
+        gap: 12px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .profile-card .profile-repos .repo-name {
+        font-size: 1.2rem;
+    }
+
+    .profile-card .profile-repos .repo .repo-link {
+        width: 100%;
+    }
+}
+
+/* Responsive for phones and very small screens */
+@media (max-width: 600px) {
+    .form h1 {
+        font-size: 2.5rem;
+    }
+
+    .profile-card .profile-heading .profile-pic {
+        width: 70%;
+    }
+
+    .profile-card .profile-repos .repo {
+        padding: 12px;
+    }
+
+    .profile-card .profile-repos .repo-name {
+        font-size: 1rem;
+    }
+
+    .profile-card .profile-repos .repo .repo-link {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+}
